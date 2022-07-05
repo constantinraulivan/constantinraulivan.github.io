@@ -17,31 +17,49 @@
             alt=""
           />
         </div>
-        <div id="headlines">
+        <div id="header-info">
           <h1><strong>Curriculum Vitae</strong></h1>
           <p><b>Specialist Marketing</b> la Uny Agency</p>
         </div>
       </div>
-      <ul id="nav-menu">
-        <nav><a href="">Home</a></nav>
-        <nav><a href="">Projects</a></nav>
-        <nav><a href="">About</a></nav>
-        <nav><a href="">Contact</a></nav>
+      <ul id="top-menu-bar">
+        <li><a href="">Home</a></li>
+        <li><a href="">Skilss</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Languages</a></li>
       </ul>
     </header>
     <section id="content">
       <div id="side-menu">
-        <form action="/destination">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            minlenght="5"
-            maxlenght="20"
-          />
-          <button>Trimite</button>
-        </form>
+        <div id="contact-info">
+          <h2>Contact me</h2>
+          <div class="form-row">
+            <form action="/destination">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                minlenght="5"
+                maxlenght="20"
+                placeholder="example@gmail.com"
+              />
+            </form>
+          </div>
+          <div class="form-row">
+            <form action="/destination">
+              <label for="name-contact">Name</label>
+              <input
+                type="text"
+                name="name-contact"
+                id="email"
+                minlenght="5"
+                maxlenght="20"
+                placeholder="Your name"
+              />
+            </form>
+          </div>
+        </div>
       </div>
       <div id="main">
         <div class="skills-list">
@@ -101,5 +119,7 @@
     <footer>
       <a href="google.com">Google</a>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
