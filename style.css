@@ -11,6 +11,11 @@ body {
   flex: 1;
 }
 
+body{
+  font-family: 'Sora', sans-serif;
+}
+
+
 #content {
   display: flex;
   flex-direction: row;
@@ -253,4 +258,83 @@ input {
 
 #contact-info h2{
  margin: 5px 0px 10px 0px;
+}
+
+.icons ul {
+padding: 0;
+margin: 0;
+text-align: center;
+display: inline;
+display: flex;
+text-align: center;
+}
+
+.icons ul li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.icons ul li a {
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.icons ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+.icons ul li a i {
+  widht: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+
+/* .icons ul li a i:nth-child(1) a:hover .i {
+  color: #3b5998;
+}
+
+.icons ul li:nth-child(2) a:hover .i {
+  color: #00aced;
+}
+
+.icons ul li:nth-child(3) a:hover .i {
+  color: #dd4b39;
+} */
+
+
+#social-media{
+  margin:   20px 10px 20px 0px;
+  padding: 10px 10px 25px 10px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+#social-media h2 {
+  margin: 5px 5px 15px 0px;
+}
+
+#card-test{
+  width:100px
+}
+#header-info p{
+  margin-top: 7px;
 }
