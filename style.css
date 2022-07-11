@@ -305,21 +305,6 @@ text-align: center;
   color: #262626;
   transition: .5s;
 }
-
-
-/* .icons ul li a i:nth-child(1) a:hover .i {
-  color: #3b5998;
-}
-
-.icons ul li:nth-child(2) a:hover .i {
-  color: #00aced;
-}
-
-.icons ul li:nth-child(3) a:hover .i {
-  color: #dd4b39;
-} */
-
-
 #social-media{
   margin:   20px 10px 20px 0px;
   padding: 10px 10px 25px 10px;
@@ -338,3 +323,14 @@ text-align: center;
 #header-info p{
   margin-top: 7px;
 }
+
+#social-media ul li a i.fa.fa-brands.fa-facebook:hover {
+  color: #0d40ae;
+}
+#social-media ul li a i.fa.fa-brands.fa-linkedin:hover {
+  color: #0056b3;
+}
+#social-media ul li a i.fa.fa-brands.fa-instagram:hover {
+  color: #833AB4;
+}
+
