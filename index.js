@@ -30,31 +30,30 @@ function showPage(id) {
   document.getElementById(id).style.display = "block";
 }
 
-function showHomePage() {
+function hideAllPages() {
   hidePage("skills");
   hidePage("projects");
   hidePage("languages");
+  hidePage("home");
+}
+
+function showHomePage() {
+  hideAllPages();
   showPage("home");
 }
 
 function showSkillsPage() {
-  hidePage("home");
-  hidePage("projects");
-  hidePage("languages");
+  hideAllPages();
   showPage("skills");
 }
 
 function showProjectPage() {
-  hidePage("skills");
-  hidePage("home");
-  hidePage("languages");
+  hideAllPages();
   showPage("projects");
 }
 
 function showLanguagePage() {
-  hidePage("projects");
-  hidePage("home");
-  hidePage("skills");
+  hideAllPages();
   showPage("languages");
 }
 
