@@ -80,6 +80,10 @@ transition: .5s;
   height:40px ;
 }
 
+#top-menu-bar a.active{
+  background-color: #ff0;
+  color:black
+}
 
 #profile-picture {
   width: 120px;
