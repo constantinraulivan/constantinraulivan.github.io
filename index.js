@@ -1,7 +1,7 @@
 console.info(2);
 console.debug(2 + 3);
 console.warn(56 * 3 - 10);
-console.error("app started");
+console.warn("app started");
 
 var myName = "Raul";
 var age = 19;
@@ -41,4 +41,17 @@ function showPage(nextPage) {
   activePage = nextPage;
 }
 
+function initEvents() {
+  document
+    .getElementById("top-menu-bar")
+    .addEventListener("click", function (e) {
+      if (e.target.matches("a")) {
+        var id = e.target.id.substring(5);
+        console.warn("click pe menu", id);
+        showPage(id);
+      }
+    });
+}
+
 showPage(activePage);
+initEvents();
